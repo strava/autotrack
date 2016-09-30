@@ -1,5 +1,5 @@
 {
-  "name": "autotrack",
+  "name": "@strava/autotrack",
   "version": "1.0.3",
   "description": "Automatic and enhanced Google Analytics tracking for common user interactions on the web",
   "main": "lib",

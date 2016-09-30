@@ -64,7 +64,6 @@ gulp.task('javascript', function(done) {
   .pipe(source('./autotrack.js'))
   .pipe(buffer())
   .pipe(sourcemaps.init({loadMaps: true}))
-  .pipe(uglify({output: {preamble: license + '\n\n' + version}}))
   .pipe(sourcemaps.write('./'))
   .pipe(gulp.dest('./'));
 });
