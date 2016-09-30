@@ -4,3 +4,4 @@ npm-debug.log
 
 # Local SauceLabs test runner
 sauce.sh
+strava*.tgz
