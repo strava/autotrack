@@ -1,6 +1,6 @@
 {
   "name": "@strava/autotrack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Automatic and enhanced Google Analytics tracking for common user interactions on the web",
   "main": "lib",
   "scripts": {
@@ -28,6 +28,10 @@
   "bugs": {
     "url": "https://github.com/googleanalytics/autotrack/issues"
   },
+  "files": [
+    "autotrack.js",
+    "autotrack.js.map"
+  ],
   "homepage": "https://github.com/googleanalytics/autotrack#readme",
   "dependencies": {
     "debounce": "^1.0.0",
