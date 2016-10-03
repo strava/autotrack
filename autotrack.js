@@ -487,7 +487,8 @@ ImpressionTracker.prototype.walkNodeTree = function(node, callback) {
     callback(node.id);
   }
   for (var i = 0, child; child = node.childNodes[i]; i++) {
-    this.walkNodeTree(child, callback);
+    this.walkNodeTree(child, callback)
+
   }
 };
 
@@ -507,6 +508,7 @@ ImpressionTracker.prototype.handleIntersectionChanges = function(records) {
 
         if (item.trackFirstImpressionOnly) {
           this.items.splice(j, 1);
+
           j--;
           this.possiblyUnobserveElement(item.id);
         }
