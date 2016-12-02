@@ -1,6 +1,6 @@
 {
   "name": "@strava/autotrack",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Automatic and enhanced Google Analytics tracking for common user interactions on the web",
   "main": "lib",
   "scripts": {
